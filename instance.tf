@@ -14,5 +14,5 @@ module "keypair" {
   project_name = "${var.project_name}"
   environment = "${var.environment}"
   key_name = "${var.project_name}-${var.environment}"
-
+  key_public = "${var.key_public}"
 }
